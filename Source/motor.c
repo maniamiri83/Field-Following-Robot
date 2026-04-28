@@ -1,7 +1,7 @@
 #include "motor.h"
 #include <stdint.h>
 
-// LED indicators (Wired in receiver.c Configure_Pins)
+// LED indicators (Wired in ir_receiver.c Configure_Pins)
 #define LED_LEFT_ON()   (GPIOA->ODR |=  (1u << 1))
 #define LED_LEFT_OFF()  (GPIOA->ODR &= ~(1u << 1))
 #define LED_RIGHT_ON()  (GPIOA->ODR |=  (1u << 2))
@@ -22,7 +22,7 @@ volatile int right_speed = 0;
 volatile int left_dir = 1;
 volatile int right_dir = 1;
 
-// Set to 1 by receiver.c (via auto_stop()) to break the auto loop
+// Set to 1 by ir_receiver.c (via auto_stop()) to break the auto loop
 // auto_start() polls this each iteration and exits
 volatile unsigned char auto_running         = 0;
 unsigned char          auto_intersection_cnt = 0;
