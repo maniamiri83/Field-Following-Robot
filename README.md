@@ -6,7 +6,7 @@ Dual-MCU embedded system: a wireless IR remote (EFM8 MCU) controls a car (STM32 
 
 ## Demo
 
-https://m.youtube.com/watch?v=IZmT9Dlk98s&ra=m
+[![Demo](https://img.youtube.com/vi/IZmT9Dlk98s/maxresdefault.jpg)](https://www.youtube.com/watch?v=IZmT9Dlk98s)
 
 ---
 
@@ -96,3 +96,4 @@ Two independent battery-powered systems communicate over a custom IR link:
 - Obstacle detection responsive within one main loop iteration (~20 ms) after switching to continuous polling
 - Non-angled inductor layout outperformed angled layout at intersections (no false turns on perpendicular wire)
 - 180° turn calibrated to 2200 ms on cardboard surface
+[README (15).md](https://github.com/user-attachments/files/27148588/README.15.md)
