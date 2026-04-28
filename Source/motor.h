@@ -5,7 +5,7 @@
 #include <stdint.h>
 
 //----------------------------------
-// Globals updated by receiver.c   |
+// Globals updated by ir_receiver.c   |
 //----------------------------------
 extern volatile unsigned char auto_running;
 extern unsigned char          auto_intersection_cnt;
