@@ -6,7 +6,7 @@ Dual-MCU embedded system: a wireless IR remote (EFM8 MCU) controls a car (STM32 
 
 ## Demo
 
-> 📹 **[Watch the demo on YouTube](https://m.youtube.com/watch?v=IZmT9Dlk98s&ra=m)**
+https://m.youtube.com/watch?v=IZmT9Dlk98s&ra=m
 
 ---
 
