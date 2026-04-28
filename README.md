@@ -83,7 +83,7 @@ Two independent battery-powered systems communicate over a custom IR link:
 │   └── vl53l0x.h            # ToF sensor interface
 ├── gui/
 │   └── rc_serial_reader_gui.py  # DearPyGui serial monitor
-└── docs/                    # Circuit diagrams, block diagrams, report
+└── diagrams/                    # Hardware & software block diagrams
 ```
 
 > VL53L0X I2C driver (`vl53l0x.c`) adapted from [artfulbytes/vl6180x_vl53l0x_msp430](https://github.com/artfulbytes/vl6180x_vl53l0x_msp430) — not included here.
