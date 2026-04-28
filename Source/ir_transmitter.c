@@ -1,8 +1,3 @@
-//----------------------------------
-// ELEC 291     Project 2          |
-// Field Tracking Robot            |
-// IR Transmitter                  |
-//----------------------------------
 
 // EFM8 Pin Layout:
 // P1.4 - 150 Ohm -> SFH4546 Anode -> Cathode -> GND (IR TX)
