@@ -74,14 +74,14 @@ Two independent battery-powered systems communicate over a custom IR link:
 ## Repository Structure
 
 ```
-├── master/
+├── master code
 │   └── ir_transmitter.c     # EFM8 remote — main loop, joystick ADC, IR TX, LCD, UART
-├── slave/
+├── slave code
 │   ├── ir_receiver.c        # STM32 car — main loop, IR RX, command dispatch
 │   ├── motor.c/h            # PWM ISR, proportional auto-steering, path table
 │   ├── obstacle.c/h         # VL53L0X hysteresis filter, stop/resume logic
 │   └── vl53l0x.h            # ToF sensor interface
-├── gui/
+├── gui
 │   └── rc_serial_reader_gui.py  # DearPyGui serial monitor
 └── diagrams/                    # Hardware & software block diagrams
 ```
