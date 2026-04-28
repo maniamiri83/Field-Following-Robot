@@ -96,4 +96,3 @@ Two independent battery-powered systems communicate over a custom IR link:
 - Obstacle detection responsive within one main loop iteration (~20 ms) after switching to continuous polling
 - Non-angled inductor layout outperformed angled layout at intersections (no false turns on perpendicular wire)
 - 180° turn calibrated to 2200 ms on cardboard surface
-[README.md](https://github.com/user-attachments/files/27148588/README.15.md)
